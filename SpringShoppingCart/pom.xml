@@ -13,6 +13,12 @@
 	</properties>
 	<dependencies>
 
+		<dependency>
+			<groupId>ua.com.zhmaka</groupId>
+			<artifactId>Shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- JavaEE -->
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
@@ -28,7 +34,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>4.3.6.RELEASE</version>
 		</dependency>
-		
+
 		<!-- JSTL -->
 		<dependency>
 			<groupId>jstl</groupId>

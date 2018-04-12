@@ -1,6 +1,6 @@
 $(function(){
 	
-	// solvint the active menu
+	// solving the active menu
 	switch(menu){
 	case 'About Us Page':
 		$('#about').addClass('active');
@@ -9,8 +9,12 @@ $(function(){
 		$('#contact').addClass('active');
 		break;
 		
+	case 'All Products':
+		$('#listProducts').addClass('active');
+		break;
 	case 'Home Page':
-		$('#home').addClass('active');
+		$('#listProducts').addClass('active');
+		$('#a_'+menu).addClass('active');
 		break;
 	}
 
