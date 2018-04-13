@@ -44,7 +44,7 @@ public class PageController {
 		return model;
 	}
 	
-	@RequestMapping(value={"show/",})
+	@RequestMapping(value={"show",})
 	public ModelAndView showAllProducts()
 	{
 		ModelAndView model = new ModelAndView("page");
